@@ -1,0 +1,134 @@
+print("Ajuda Hebraico\n")#Começa o programa  
+
+Ph = input("Você quer aprender ou fazer um quiz? (quiz = 1/aprender = 2) ")#Pergunta se o usuário quer aprender ou fazer um quiz
+
+serie = None
+serieA = None
+
+def quiz():
+  print("\nBem-vindo ao Quiz de Ajuda Hebraico!\n")
+  return None
+def aprender():
+  print("Oi vamos começar o aprendizado!\n")
+if Ph == "1":
+  print(quiz())
+  serie = input("Qual é a sua série? (porfavor responda em numeros)")
+elif Ph == "2":
+  print(aprender())
+  serieA = input("Qual é a sua série? (porfavor responda em numeros)")
+def Sexto():
+  pontos = 60
+
+  primeiraP = input("Traduza para hebraico: Preto e Branco\n")
+  if primeiraP in [
+      "Shachol ve lavan", "shachol ve lavan", "shachol ve Lavan "
+  ]:
+    print(f"Correto! Vamos para a próxima, pontos: {pontos}/60!\n")
+  else:
+    print(f"Errado! A resposta correta é 'Shachol ve lavan', pontos: {pontos}/60!\n")
+    pontos -= 1
+  segundaP = input("Fale 'meu nome é Bia.', em hebraico.\n")
+  if segundaP in [
+      "Ani Bia", "A shem sheli Bia", "ani bia", "a shem sheli bia"
+  ]:
+    print(f"Correto! Vamos para a próxima, pontos: {pontos}/60!\n")
+  else:
+    print(f"Errado! A resposta correta é 'Ani Bia' ou 'A shem shelí Bia', pontos: {pontos}/60!\n")
+    pontos -= 1
+    print(f"{pontos}/60\n")
+
+  terceiraP = input(
+      "Quais são as cores da Bandeira de Israel(responda em hebraico)?\n")
+  if terceiraP in ["lavan ve kachol", "Lavan ve kachol", "Lavan ve Kachol"]:
+    print(f"Correto! Vamos para a próxima, pontos: {pontos}/60!\n")
+  else:
+    print(f"Errado! A resposta correta é 'kachol ve lavan', pontos: {pontos}/60!\n")
+    pontos -= 1
+
+  quartaP = input("Qual cor se obtém quando misturamos amarelo com azul?\n")
+  if quartaP in ["yarok", "Yarok", "YAROK"]:
+    print(f"Correto! Vamos para a próxima, pontos: {pontos}/60!\n")
+  else:
+    print(f"Errado! A resposta correta é 'yarok', pontos: {pontos}/60!\n")
+    pontos -= 1
+
+  quintaP = input("Quais são as cores da bandeira do Brasil?\n")
+  if quintaP in ["kachol ve yarok ve tzahov", "Kachol ve yarok ve tzahov"]:
+    print(f"Correto! Vamos para a próxima, pontos: {pontos}/60!\n")
+  else:
+    print(f"Errado! A resposta correta é 'yarok ve kachol ve tzahov', pontos: {pontos}/60!\n")
+    pontos -= 1
+
+  sextaP = input("Como é você no masculino, em hebraico?\n")
+
+  if sextaP in ["Ata", "ata", "ATA"]:
+    print(f"Correto! Vamos para a próxima, pontos: {pontos}/60!\n")
+  else:
+    print(f"Errado! A resposta correta é 'ata', pontos: {pontos}/60!\n")
+    pontos -= 1
+
+  setimaP = input("Como é você no feminino, em hebraico?\n")
+
+  if setimaP in ["At", "at", "AT"]:
+    print(f"Correto! Vamos para a próxima, pontos: {pontos}/60!\n")
+  else:
+    print(f"Errado! A resposta correta é 'at', pontos: {pontos}/60!\n")
+    pontos -= 1
+
+  oitavaP = input("Traduza para hebraico: 'Ela é a Bia'.\n")
+
+  if oitavaP in ["Hi Bia", "hi bia", "HI BIA"]:
+    print(f"Correto! Vamos para a próxima, pontos: {pontos}/60!\n")
+  else:
+    print(f"Errado! A resposta correta é 'Hi Bia', pontos: {pontos}/60!\n")
+    pontos -= 1
+def Setimo():
+  pontos = 60
+
+  primeiraP = input("Traduza para hebraico: 'Eu estou feliz'")
+
+  if primeiraP in ["Ani Sameach", "ani sameach", "ANI SAMEACH"]:
+    print(f"Correto! Vamos para a próxima, pontos: {pontos}/60!\n")
+  else:
+    print(f"Errado! A resposta correta é 'Ani Sameach' ou 'Ani Smechá', pontos: {pontos}/60!\n")
+    pontos -= 1
+    
+  segundaP = input("Traduza para hebraico: 'Eu gosto de maças', no masculino")
+
+  if segundaP in ["Ani Ohev Tapuach", "ani ohev tapuach", "ANI OHEV TAPUACH"]:
+    print(f"Correto! Vamos para a próxima, pontos: {pontos}/60!\n")
+  else:
+    print(f"Errado! A resposta correta é 'Ani ohev tapuach', pontos: {pontos}/60!\n")
+    pontos -= 1
+
+  terceiraP = input("Traduza para hebraico: 'Eu moro em Copacabana', no masculino")
+
+  if terceiraP in ["Ani gar be Copacabana", "ani gar be copacabana", "ANI GAR BE COPACABANA"]:
+      print(f"Correto! Vamos para a próxima, pontos: {pontos}/60!\n")
+  else:
+      print(f"Errado! A resposta correta é 'Ani gar be Copacabana', pontos: {pontos}/60!\n")
+      pontos -= 1
+
+  quartaP = input("Traduza para hebraico: 'Onde você mora?', no feminino")
+  if quartaP in ["Eifo at gara?", "eifo at gara", "ANI GAR BE COPACABANA"]:
+    print(f"Correto! Vamos para a próxima, pontos: {pontos}/60!\n")
+  else:
+    print(f"Errado! A resposta correta é 'Ani gar be Copacabana', pontos: {pontos}/60!\n")
+    pontos -= 1
+
+def SextoA():
+  print("\nCores:Tsbaim:צבעים\n")
+  print(
+      "Cores Primárias: tsbaim yesud:צבעי יסוד\nAzul - Kachol(כְּחוֹל)\nVermelho - Adom(אָדוֹם)\nAmarelo - Tzahov(צָהוֹב)\n"
+  )
+  print(
+      "Outras cores: tsbaim acharim:צבעים אחרים\nVerde - yarok(יָרוֹק)\nMarrom - Chum(חוּם)\nBranco - Lavan(לָבָן)\nPreto - Shachol(שָׁחוֹר)\nRosa - Verad(וָרוֹד)\nRoxo - Sagol(סָגוֹל)"
+  )
+if serie == "6":
+  print("Vamos lá")
+  print(Sexto())
+if (serieA == "6"):
+  print(SextoA())
+if serie == "7":
+  print("Vamos lá")
+  print(Setimo())
